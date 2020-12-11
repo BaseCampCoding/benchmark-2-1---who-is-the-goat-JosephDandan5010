@@ -16,6 +16,8 @@ p {
 
 img {
     border-radius: 8px;
+    max-width: 100%;
+    height: auto;
   }
 
   div.polaroid {
@@ -40,3 +42,14 @@ img {
     transform: rotate(-8deg);
   }
 
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
