@@ -53,3 +53,15 @@ img {
       width: 100%;
     }
   }
+
+  .container {
+    font-size: 15px;
+    min-height: 30px;
+    width: autoH;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  
